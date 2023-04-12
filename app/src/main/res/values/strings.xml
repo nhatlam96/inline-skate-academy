@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Inline Skate Academy</string>
+    <string name="basic_button">Basic Difficulty</string>
+    <string name="intermediate_button">Intermediate Difficulty</string>
+    <string name="advanced_button">Advanced Difficulty</string>
+</resources>
