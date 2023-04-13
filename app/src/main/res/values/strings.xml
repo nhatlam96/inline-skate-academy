@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Inline Skate Academy</string>
-    <string name="basic_button">Basic Difficulty</string>
-    <string name="intermediate_button">Intermediate Difficulty</string>
-    <string name="advanced_button">Advanced Difficulty</string>
+    <string name="novice_title">Novice</string>
+    <string name="novice_image_desc">Meme Baby Doge</string>
+    <string name="regular_title">Regular</string>
+    <string name="regular_image_desc">"Hardstuck here"</string>
+    <string name="expert_title">Expert</string>
+    <string name="expert_image_desc">Giga Chad</string>
+    <string name="theory_title">Theory</string>
+    <string name="theory_image_desc">Learn Pencil</string>
+
 </resources>
