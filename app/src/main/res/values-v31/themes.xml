@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App.InlineSkateSplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/baseline_roller_skating_24</item>
+        <item name="postSplashScreenTheme">@style/Theme.InlineSkateAcademy</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/brand_inskate</item>
+    </style>
+</resources>
