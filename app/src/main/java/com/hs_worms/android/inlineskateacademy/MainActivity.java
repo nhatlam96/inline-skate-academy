@@ -1,17 +1,14 @@
 package com.hs_worms.android.inlineskateacademy;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.splashscreen.SplashScreen;
 
-public class MainActivity extends AppCompatActivity {
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Toast;
 
-    // find IDs
-    private CardView noviceCardView, regularCardView, expertCardView, theoryCardView;
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +18,11 @@ public class MainActivity extends AppCompatActivity {
         setTitle("Choose category");
         findIDs();
         setupIDs();
+        Toast.makeText(MainActivity.this, "Welcome to Inline Skate Academy!", Toast.LENGTH_SHORT).show();
     }
+
+    // find IDs
+    private CardView noviceCardView, regularCardView, expertCardView, theoryCardView;
 
     private void findIDs() {
         noviceCardView = findViewById(R.id.novice_cardview);
@@ -33,22 +34,18 @@ public class MainActivity extends AppCompatActivity {
     // setup buttons
     private void setupIDs() {
         noviceCardView.setOnClickListener(view -> {
-            Toast.makeText(MainActivity.this, "You can do it!", Toast.LENGTH_SHORT).show();
             Intent switchToNoviceCategory = new Intent(MainActivity.this, NoviceCategoryActivity.class);
             startActivity(switchToNoviceCategory);
         });
         regularCardView.setOnClickListener(view -> {
-            Toast.makeText(MainActivity.this, "Don't get your hopes up", Toast.LENGTH_SHORT).show();
             Intent switchToRegularCategory = new Intent(MainActivity.this, RegularCategoryActivity.class);
             startActivity(switchToRegularCategory);
         });
         expertCardView.setOnClickListener(view -> {
-            Toast.makeText(MainActivity.this, "A true chad :D", Toast.LENGTH_SHORT).show();
             Intent switchToExpertCategory = new Intent(MainActivity.this, ExpertCategoryActivity.class);
             startActivity(switchToExpertCategory);
         });
         theoryCardView.setOnClickListener(view -> {
-            Toast.makeText(MainActivity.this, "You nerd", Toast.LENGTH_SHORT).show();
             Intent switchToTheoryCategory = new Intent(MainActivity.this, TheoryCategoryActivity.class);
             startActivity(switchToTheoryCategory);
         });

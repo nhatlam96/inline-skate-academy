@@ -13,9 +13,8 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-
     <!-- Splash Screen -->
-    <style name="Theme.App.InlineSkateSplashScreen" parent="Theme.SplashScreen">
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
         <item name="windowSplashScreenAnimatedIcon">@drawable/baseline_roller_skating_24</item>
         <item name="postSplashScreenTheme">@style/Theme.InlineSkateAcademy</item>
     </style>
