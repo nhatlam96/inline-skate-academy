@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         theoryCardView = findViewById(R.id.theory_cardview);
     }
 
-    // setup buttons
+    // setup IDs
     private void setupIDs() {
         noviceCardView.setOnClickListener(view -> {
             Intent switchToNoviceCategory = new Intent(MainActivity.this, NoviceCategoryActivity.class);
