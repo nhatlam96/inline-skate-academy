@@ -1,6 +1,5 @@
 # Project Scope
 ## User Stories
-![[QAE - Template User Stories.docx]]
 | Title      | ID  | Priority | Description                                                                                                                       | Additional                                                        |
 | ---------- | --- | -------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | Homescreen   | HS  | Core     | A user can have an overview of all lesson categories in the homescreen                                                              | A user can also see how far their progress for the categories are |
