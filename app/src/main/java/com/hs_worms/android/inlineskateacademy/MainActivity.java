@@ -1,28 +1,28 @@
 package com.hs_worms.android.inlineskateacademy;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-import androidx.core.splashscreen.SplashScreen;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.core.splashscreen.SplashScreen;
+
 public class MainActivity extends AppCompatActivity {
+
+    // find IDs
+    private CardView noviceCardView, regularCardView, expertCardView, theoryCardView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         SplashScreen.installSplashScreen(this);
         setContentView(R.layout.activity_main);
-        setTitle("Choose category");
+        setTitle(R.string.activity_main_title);
         findIDs();
         setupIDs();
-        Toast.makeText(MainActivity.this, "Welcome to Inline Skate Academy!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, R.string.activity_main_toast, Toast.LENGTH_SHORT).show();
     }
-
-    // find IDs
-    private CardView noviceCardView, regularCardView, expertCardView, theoryCardView;
 
     private void findIDs() {
         noviceCardView = findViewById(R.id.novice_cardview);

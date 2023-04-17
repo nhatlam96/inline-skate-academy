@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Inline Skate Academy</string>
+    <string name="activity_main_title">Choose category</string>
+    <string name="activity_main_toast">Welcome to Inline Skate Academy!</string>
     <string name="novice_title">Novice</string>
     <string name="novice_image_desc">Meme Baby Doge</string>
     <string name="regular_title">Regular</string>
