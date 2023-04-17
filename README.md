@@ -7,12 +7,13 @@
 | Lessons    | LSS | Core     | A user can find pictures with instructions in the lessons and add or edit their notes for the lesson and also mark it as favorite | User notes must be saved in a local database                      |
 
 ## Time tracking
-| Date     | Time (min) | TimeF(x) | Category     | Description        | User Story |
-| -------- | ---------- | -------- | ------------ | ------------------ | ---------- |
-| 06.04.23 | 60         | 60       | Project Idea | Define Idea        | -          |
-| 12.04.23 | 30         | 90       | Homescreen   | Basic Buttons      | HS         |
-| 13.04.23 | 150        | 240      | Homescreen   | Cardviews          | HS         |
-| 16.04.23 | 60         | 300      | Misc | Splashscreen + App Icon | -           |
+| Date     | Time (min) | TimeF(x) | Category     | Description                  | User Story |
+| -------- | ---------- | -------- | ------------ |------------------------------| ---------- |
+| 06.04.23 | 60         | 60       | Project Idea | Define Idea                  | -          |
+| 12.04.23 | 30         | 90       | Homescreen   | Basic Buttons                | HS         |
+| 13.04.23 | 150        | 240      | Homescreen   | Cardviews                    | HS         |
+| 16.04.23 | 60         | 300      | Misc         | Splashscreen + App Icon      | -          |
+| 17.04.23 | 30         | 330      | Misc         | Light- dark theme adjustment | -           |
 
 ## Project Idea
 **Inline Skate Academy**
