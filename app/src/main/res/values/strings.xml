@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Inline Skate Academy</string>
-    <string name="activity_main_title">Choose category</string>
+    <string name="main_title">Main categories</string>
     <string name="activity_main_toast">Welcome to Inline Skate Academy!</string>
-    <string name="novice_title">Novice</string>
+    <string name="novice_title">Novice lessons</string>
     <string name="novice_image_desc">Meme Baby Doge</string>
-    <string name="regular_title">Regular</string>
+    <string name="regular_title">Regular lessons</string>
     <string name="regular_image_desc">"Hardstuck here"</string>
-    <string name="expert_title">Expert</string>
+    <string name="expert_title">Expert lessons</string>
     <string name="expert_image_desc">Giga Chad</string>
-    <string name="theory_title">Theory</string>
+    <string name="theory_title">Theory lessons</string>
     <string name="theory_image_desc">Learn Pencil</string>
 
 </resources>

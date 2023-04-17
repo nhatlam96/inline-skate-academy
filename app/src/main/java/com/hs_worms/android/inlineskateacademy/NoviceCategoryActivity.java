@@ -10,5 +10,6 @@ public class NoviceCategoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_novice_category);
+        setTitle(R.string.novice_title);
     }
 }

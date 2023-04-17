@@ -10,5 +10,6 @@ public class RegularCategoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regular_category);
+        setTitle(R.string.regular_title);
     }
 }

@@ -10,5 +10,6 @@ public class ExpertCategoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_expert_category);
+        setTitle(R.string.expert_title);
     }
 }

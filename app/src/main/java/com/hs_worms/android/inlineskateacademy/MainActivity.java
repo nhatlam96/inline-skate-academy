@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         SplashScreen.installSplashScreen(this);
         setContentView(R.layout.activity_main);
-        setTitle(R.string.activity_main_title);
+        setTitle(R.string.main_title);
         findIDs();
         setupIDs();
         Toast.makeText(MainActivity.this, R.string.activity_main_toast, Toast.LENGTH_SHORT).show();
