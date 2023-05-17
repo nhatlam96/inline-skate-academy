@@ -10,5 +10,8 @@
     <string name="expert_image_desc">Giga Chad</string>
     <string name="theory_title">Theory lessons</string>
     <string name="theory_image_desc">Learn Pencil</string>
+    <string name="image_lesson_desc">Image desc</string>
+    <string name="lesson_title">Lesson title</string>
+    <string name="lesson_description">Lesson description</string>
 
 </resources>
