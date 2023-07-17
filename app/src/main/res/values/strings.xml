@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Inline Skate Academy</string>
     <string name="main_title">Main categories</string>
     <string name="activity_main_toast">Welcome to Inline Skate Academy!</string>
@@ -13,5 +13,62 @@
     <string name="image_lesson_desc">Image desc</string>
     <string name="lesson_title">Lesson title</string>
     <string name="lesson_description">Lesson description</string>
-
+    <string name="title_activity_novice_lesson1" tools:ignore="Typos">NoviceLesson1Activity</string>
+    <string name="novice_lesson_1_title">Forward Stride</string>
+    <string name="novice_lesson_1_description">Baby steps</string>
+    <string name="novice_lesson_1_tutorial">
+        \n<b>Forward Stride</b>\n\n
+        &#8226; Start slow and use small steps\n
+        &#8226; Keep the center of gravity low\n
+        &#8226; Practice to stay on one foot\n
+        &#8226; Look forward and not down
+    </string>
+    <string name="title_activity_novice_lesson2" tools:ignore="Typos">NoviceLesson2Activity</string>
+    <string name="novice_lesson_2_title">T-Stop</string>
+    <string name="novice_lesson_2_description">Stopping to a literal T</string>
+    <string name="novice_lesson_2_tutorial">
+        \n<b>T-Stop</b>\n\n
+        &#8226; Start stopping with a low velocity\n
+        &#8226; For the begging only use a few rolls at a time\n
+        &#8226; Grind the ground for a few seconds then gradually progress\n
+        &#8226; To increase pressure properly ensure that the front knee is bent low
+    </string>
+    <string name="title_activity_novice_lesson3" tools:ignore="Typos">NoviceLesson3Activity</string>
+    <string name="novice_lesson_3_title">Parallel Turn</string>
+    <string name="novice_lesson_3_description">Be able to steer left and right</string>
+    <string name="novice_lesson_3_tutorial">
+        \n<b>Parallel Turn</b>\n\n
+        &#8226; Notice the inside and outside edges of your skates\n
+        &#8226; Start with slight turns and then progress into sharper ones\n
+        &#8226; Additionally lead with the shoulders and hips into the turn\n
+        &#8226; Move the balance into the middle wheels and not the front or back
+    </string>
+    <string name="title_activity_novice_lesson4" tools:ignore="Typos">NoviceLesson4Activity</string>
+    <string name="novice_lesson_4_title">Slalom: Fish</string>
+    <string name="novice_lesson_4_description">Parallel Turns Part 2</string>
+    <string name="novice_lesson_4_tutorial">
+        \n<b>Slalom: Fish</b>\n\n
+        &#8226; After a parallel turn quickly scissor switch your stance\n
+        &#8226; Shift the balance to the opposite side during each stance switch\n
+        &#8226; Swing the arms into the opposite direction of the turns for balance\n
+        &#8226; Keep the upper body straight
+    </string>
+    <string name="title_activity_novice_lesson5" tools:ignore="Typos">NoviceLesson5Activity</string>
+    <string name="novice_lesson_5_title">(Not a) jump!</string>
+    <string name="novice_lesson_5_description">Use little hops to get over obstacles</string>
+    <string name="novice_lesson_5_tutorial">
+        \n<b>(Not a) jump!</b>\n\n
+        &#8226; Start with small hops\n
+        &#8226; Swing the arms up for height\n
+        &#8226; Bent the knees when landing to soften the impact\n
+        &#8226; Additionally align the shoulders with the hips, knees and front wheels when landing
+    </string>
+    <string name="novice_lesson_x_tutorial">
+        \n<b>Mohawk Eagle</b>\n\n
+        &#8226; Spread both legs\n
+        &#8226; Keep the hips low\n
+        &#8226; Point the collarbone upwards\n
+        &#8226; Use arms to balance front and back
+    </string>
+    <string name="enter_your_notes">Enter your notes</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.hs_worms.android.inlineskateacademy;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,20 +14,21 @@ import androidx.recyclerview.widget.RecyclerView;
 public class LessonAdapter extends RecyclerView.Adapter<LessonAdapter.LessonViewHolder> {
 
     private final Lesson[] lessons;
+    private OnItemClickListener listener;
 
     public LessonAdapter(Lesson[] lessons) {
         this.lessons = lessons;
     }
 
-    @Override
-    public int getItemCount() {
-        return lessons.length;
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.listener = listener;
     }
 
     @NonNull
     @Override
     public LessonViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_lesson, parent, false);
+        Context context = parent.getContext();
+        View view = LayoutInflater.from(context).inflate(R.layout.item_lesson, parent, false);
         return new LessonViewHolder(view);
     }
 
@@ -35,9 +37,16 @@ public class LessonAdapter extends RecyclerView.Adapter<LessonAdapter.LessonView
         holder.bindViewHolder(lessons[position]);
     }
 
+    @Override
+    public int getItemCount() {
+        return lessons.length;
+    }
 
-    static class LessonViewHolder extends RecyclerView.ViewHolder {
+    public interface OnItemClickListener {
+        void onItemClick(Lesson lesson);
+    }
 
+    class LessonViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private final ImageView lessonImage;
         private final TextView lessonTitle;
         private final TextView lessonDescription;
@@ -49,6 +58,7 @@ public class LessonAdapter extends RecyclerView.Adapter<LessonAdapter.LessonView
             lessonTitle = itemView.findViewById(R.id.lesson_title);
             lessonDescription = itemView.findViewById(R.id.lesson_description);
             lessonBackgroundColor = itemView.findViewById(R.id.card_view_lesson);
+            itemView.setOnClickListener(this);
         }
 
         public void bindViewHolder(Lesson lesson) {
@@ -57,6 +67,15 @@ public class LessonAdapter extends RecyclerView.Adapter<LessonAdapter.LessonView
             lessonImage.setImageResource(lesson.image);
             lessonImage.setBackgroundColor(lesson.backgroundColor);
             lessonBackgroundColor.setCardBackgroundColor(lesson.backgroundColor);
+        }
+
+        @Override
+        public void onClick(View view) {
+            int position = getAbsoluteAdapterPosition();
+            if (position != RecyclerView.NO_POSITION && listener != null) {
+                Lesson lesson = lessons[position];
+                listener.onItemClick(lesson);
+            }
         }
     }
 }
