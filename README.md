@@ -1,23 +1,24 @@
 # Project Scope
 ## User Stories
 | Title      | ID  | Priority | Description                                                                                                                       | Additional                                                        |
-| ---------- | --- | -------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Homescreen   | HS  | Core     | A user can have an overview of all categories in the homescreen                                                              | A user can also see how far their progress for the categories are |
+|------------|-----|----------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Homescreen | HS  | Core     | A user can have an overview of all categories in the homescreen                                                                   | A user can also see how far their progress for the categories are |
 | Categories | CTG | Core     | A user can explore the categories and get a list of it's lessons                                                                  | A user can also see which have been marked as done                |
 | Lessons    | LSS | Core     | A user can find pictures with instructions in the lessons and add or edit their notes for the lesson and also mark it as favorite | User notes must be saved in a local database                      |
 
 ## Time tracking
 - Student: Nhat-Lam Luong
 
-| Date     | Time (min) | TimeF(x) | Category     | Description                 | User Story |
-|----------|------------|----------|--------------|-----------------------------|------------|
-| 06.04.23 | 60         | 60       | Project Idea | Define Idea                 | -          |
-| 12.04.23 | 30         | 90       | Homescreen   | Basic Buttons               | HS         |
-| 13.04.23 | 150        | 240      | Homescreen   | Cardviews                   | HS         |
-| 16.04.23 | 60         | 300      | Misc         | Splashscreen + App Icon     | -          |
+| Date     | Time (min) | TimeF(x) | Category     | Description                  | User Story |
+|----------|------------|----------|--------------|------------------------------|------------|
+| 06.04.23 | 60         | 60       | Project Idea | Define Idea                  | -          |
+| 12.04.23 | 30         | 90       | Homescreen   | Basic Buttons                | HS         |
+| 13.04.23 | 150        | 240      | Homescreen   | Cardviews                    | HS         |
+| 16.04.23 | 60         | 300      | Misc         | Splashscreen + App Icon      | -          |
 | 17.04.23 | 30         | 330      | Misc         | Light- dark theme adjustment | -          |
-| 17.05.23 | 180        | 510      | Categories   | RecyclerView                | CTG        |
-| 17.07.23 | 300        | 810      | Lessons      | Novice Lessons          | LSS        |
+| 17.05.23 | 180        | 510      | Categories   | RecyclerView                 | CTG        |
+| 17.07.23 | 300        | 810      | Lessons      | Novice Lessons               | LSS        |
+| 21.07.23 | 30         | 840      | Lessons      | Regular Lessons              | LSS        |
 
 ## Project Idea
 **Inline Skate Academy**

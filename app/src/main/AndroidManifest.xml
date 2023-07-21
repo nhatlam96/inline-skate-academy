@@ -14,29 +14,54 @@
         android:theme="@style/Theme.InlineSkateAcademy"
         tools:targetApi="31">
         <activity
+            android:name=".RegularLesson4Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_4_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
             android:name=".NoviceLesson1Activity"
             android:exported="false"
-            android:label="@string/title_activity_novice_lesson1"
+            android:label="@string/novice_lesson_1_title"
             android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
         <activity
             android:name=".NoviceLesson2Activity"
             android:exported="false"
-            android:label="@string/title_activity_novice_lesson2"
+            android:label="@string/novice_lesson_2_title"
             android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
         <activity
             android:name=".NoviceLesson3Activity"
             android:exported="false"
-            android:label="@string/title_activity_novice_lesson3"
+            android:label="@string/novice_lesson_3_title"
             android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
         <activity
             android:name=".NoviceLesson4Activity"
             android:exported="false"
-            android:label="@string/title_activity_novice_lesson4"
+            android:label="@string/novice_lesson_4_title"
             android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
         <activity
             android:name=".NoviceLesson5Activity"
             android:exported="false"
-            android:label="@string/title_activity_novice_lesson5"
+            android:label="@string/novice_lesson_5_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".RegularLesson1Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_1_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".RegularLesson2Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_2_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".RegularLesson3Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_3_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".RegularLesson5Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_5_title"
             android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
         <activity
             android:name=".TheoryCategoryActivity"

@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">Inline Skate Academy</string>
     <string name="main_title">Main categories</string>
     <string name="activity_main_toast">Welcome to Inline Skate Academy!</string>
@@ -13,7 +13,6 @@
     <string name="image_lesson_desc">Image desc</string>
     <string name="lesson_title">Lesson title</string>
     <string name="lesson_description">Lesson description</string>
-    <string name="title_activity_novice_lesson1" tools:ignore="Typos">NoviceLesson1Activity</string>
     <string name="novice_lesson_1_title">Forward Stride</string>
     <string name="novice_lesson_1_description">Baby steps</string>
     <string name="novice_lesson_1_tutorial">
@@ -23,7 +22,6 @@
         &#8226; Practice to stay on one foot\n
         &#8226; Look forward and not down
     </string>
-    <string name="title_activity_novice_lesson2" tools:ignore="Typos">NoviceLesson2Activity</string>
     <string name="novice_lesson_2_title">T-Stop</string>
     <string name="novice_lesson_2_description">Stopping to a literal T</string>
     <string name="novice_lesson_2_tutorial">
@@ -33,7 +31,6 @@
         &#8226; Grind the ground for a few seconds then gradually progress\n
         &#8226; To increase pressure properly ensure that the front knee is bent low
     </string>
-    <string name="title_activity_novice_lesson3" tools:ignore="Typos">NoviceLesson3Activity</string>
     <string name="novice_lesson_3_title">Parallel Turn</string>
     <string name="novice_lesson_3_description">Be able to steer left and right</string>
     <string name="novice_lesson_3_tutorial">
@@ -43,7 +40,6 @@
         &#8226; Additionally lead with the shoulders and hips into the turn\n
         &#8226; Move the balance into the middle wheels and not the front or back
     </string>
-    <string name="title_activity_novice_lesson4" tools:ignore="Typos">NoviceLesson4Activity</string>
     <string name="novice_lesson_4_title">Slalom: Fish</string>
     <string name="novice_lesson_4_description">Parallel Turns Part 2</string>
     <string name="novice_lesson_4_tutorial">
@@ -53,7 +49,6 @@
         &#8226; Swing the arms into the opposite direction of the turns for balance\n
         &#8226; Keep the upper body straight
     </string>
-    <string name="title_activity_novice_lesson5" tools:ignore="Typos">NoviceLesson5Activity</string>
     <string name="novice_lesson_5_title">(Not a) jump!</string>
     <string name="novice_lesson_5_description">Use little hops to get over obstacles</string>
     <string name="novice_lesson_5_tutorial">
@@ -63,12 +58,50 @@
         &#8226; Bent the knees when landing to soften the impact\n
         &#8226; Additionally align the shoulders with the hips, knees and front wheels when landing
     </string>
-    <string name="novice_lesson_x_tutorial">
-        \n<b>Mohawk Eagle</b>\n\n
-        &#8226; Spread both legs\n
-        &#8226; Keep the hips low\n
-        &#8226; Point the collarbone upwards\n
-        &#8226; Use arms to balance front and back
+    <string name="regular_lesson_1_title">Backward Stride</string>
+    <string name="regular_lesson_1_description">Baby steps backwards</string>
+    <string name="regular_lesson_1_tutorial">
+        \n<b>Backward Stride</b>\n\n
+        &#8226; Rotate and open your upper body to peek over the shoulders \n
+        &#8226; Keep the center of gravity low\n
+        &#8226; Start slow and use small steps\n
+        &#8226; If you are not comfortable with backward skating, use a wall for support
+    </string>
+    <string name="regular_lesson_2_title">Crossovers</string>
+    <string name="regular_lesson_2_description">Cross your legs</string>
+    <string name="regular_lesson_2_tutorial">
+        \n<b>Crossovers</b>\n\n
+        &#8226; Start with a wide stance\n
+        &#8226; Rotate and lead with the upper body first and then…\n
+        &#8226; … cross the legs in front of each other\n
+        &#8226; Use the inside edges of the skates
+    </string>
+    <string name="regular_lesson_3_title">Crossovers Backwards</string>
+    <string name="regular_lesson_3_description">Cross your legs backwards</string>
+    <string name="regular_lesson_3_tutorial">
+        \n<b>Crossovers Backwards</b>\n\n
+        &#8226; Start with a wide stance\n
+        &#8226; Rotate and lead with the upper body first and then…\n
+        &#8226; … cross the legs in front of each other\n
+        &#8226; Use the inside edges of the skates
+    </string>
+    <string name="regular_lesson_4_title">Jump 180</string>
+    <string name="regular_lesson_4_description">Jump and turn around</string>
+    <string name="regular_lesson_4_tutorial">
+        \n<b>Jump 180</b>\n\n
+        &#8226; Start with small hops\n
+        &#8226; Swing the arms up and sideways for height and easier rotation\n
+        &#8226; Bent the knees when landing to soften the impact\n
+        &#8226; Additionally align the shoulders with the hips, knees and front wheels when landing
+    </string>
+    <string name="regular_lesson_5_title">Freestyle: Mohawk Eagle</string>
+    <string name="regular_lesson_5_description">Skate sideways and look cool</string>
+    <string name="regular_lesson_5_tutorial">
+        \n<b>Freestyle: Mohawk Eagle</b>\n\n
+        &#8226; Keep the hips and center of gravity low\n
+        &#8226; Start with very slow speed and spread your legs\n
+        &#8226; Pointing the toes is easier when hips are low\n
+        &#8226; Use the inside edges for the mohawk and the outside edges for the eagle
     </string>
     <string name="enter_your_notes">Enter your notes</string>
 </resources>
