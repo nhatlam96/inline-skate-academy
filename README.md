@@ -19,6 +19,7 @@
 | 17.05.23 | 180        | 510      | Categories   | RecyclerView                 | CTG        |
 | 17.07.23 | 300        | 810      | Lessons      | Novice Lessons               | LSS        |
 | 21.07.23 | 30         | 840      | Lessons      | Regular Lessons              | LSS        |
+| 22.07.23 | 30         | 870      | Lessons      | Expert Lessons               | LSS        |
 
 ## Project Idea
 **Inline Skate Academy**
