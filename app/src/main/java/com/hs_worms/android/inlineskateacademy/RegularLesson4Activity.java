@@ -13,10 +13,10 @@ public class RegularLesson4Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_regular_lesson4);
+        setContentView(R.layout.activity_regular_lesson_4);
 
-        WebView webView = findViewById(R.id.regular_lesson4_yt);
-        String Video = "<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/h6n-E5l8HIc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>";
+        WebView webView = findViewById(R.id.regular_lesson_4_yt_view);
+        String Video = getString(R.string.regular_lesson_4_yt_video);
         webView.loadData(Video, "text/html", "utf-8");
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebChromeClient(new WebChromeClient());

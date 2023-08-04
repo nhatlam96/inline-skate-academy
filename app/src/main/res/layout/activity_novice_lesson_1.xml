@@ -17,7 +17,7 @@
             android:layout_height="250dp">
 
             <WebView
-                android:id="@+id/novice_lesson1_yt"
+                android:id="@+id/novice_lesson_1_yt_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
@@ -36,7 +36,8 @@
             android:hint="@string/enter_your_notes"
             android:importantForAutofill="no"
             android:padding="@dimen/text_margin"
-            tools:ignore="TextFields" />
+            android:textColorHint="#8D6E63"
+            tools:ignore="TextFields,VisualLintTextFieldSize" />
 
     </LinearLayout>
 

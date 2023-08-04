@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ExpertLesson4Activity">
+    tools:context=".NoviceLesson3Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:layout_height="250dp">
 
             <WebView
-                android:id="@+id/expert_lesson4_yt"
+                android:id="@+id/novice_lesson_3_yt_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="@string/expert_lesson_4_tutorial"
+            android:text="@string/novice_lesson_3_tutorial"
             android:textColor="#616161" />
 
         <EditText

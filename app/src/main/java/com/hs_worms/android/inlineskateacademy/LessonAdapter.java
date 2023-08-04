@@ -35,6 +35,11 @@ public class LessonAdapter extends RecyclerView.Adapter<LessonAdapter.LessonView
     @Override
     public void onBindViewHolder(@NonNull LessonViewHolder holder, int position) {
         holder.bindViewHolder(lessons[position]);
+        holder.itemView.setOnClickListener(view -> {
+            if (listener != null) {
+                listener.onItemClick(lessons[position]);
+            }
+        });
     }
 
     @Override

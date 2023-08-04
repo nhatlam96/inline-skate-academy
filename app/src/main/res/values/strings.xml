@@ -22,6 +22,11 @@
         &#8226; Practice to stay on one foot\n
         &#8226; Look forward and not down
     </string>
+    <string name="novice_lesson_1_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mBgZ8jLydFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
+    </string>
     <string name="novice_lesson_2_title">T-Stop</string>
     <string name="novice_lesson_2_description">Stopping to a literal T</string>
     <string name="novice_lesson_2_tutorial">
@@ -30,6 +35,11 @@
         &#8226; For the begging only use a few rolls at a time\n
         &#8226; Grind the ground for a few seconds then gradually progress\n
         &#8226; To increase pressure properly ensure that the front knee is bent low
+    </string>
+    <string name="novice_lesson_2_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JhUDmgMa78c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
     </string>
     <string name="novice_lesson_3_title">Parallel Turn</string>
     <string name="novice_lesson_3_description">Be able to steer left and right</string>
@@ -40,6 +50,11 @@
         &#8226; Additionally lead with the shoulders and hips into the turn\n
         &#8226; Move the balance into the middle wheels and not the front or back
     </string>
+    <string name="novice_lesson_3_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eSkY7cS4sDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
+    </string>
     <string name="novice_lesson_4_title">Slalom: Fish</string>
     <string name="novice_lesson_4_description">Parallel Turns Part 2</string>
     <string name="novice_lesson_4_tutorial">
@@ -48,6 +63,11 @@
         &#8226; Shift the balance to the opposite side during each stance switch\n
         &#8226; Swing the arms into the opposite direction of the turns for balance\n
         &#8226; Keep the upper body straight
+    </string>
+    <string name="novice_lesson_4_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/oNnKvRakOGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
     </string>
     <string name="novice_lesson_5_title">(Not a) jump!</string>
     <string name="novice_lesson_5_description">Use little hops to get over obstacles</string>
@@ -58,6 +78,11 @@
         &#8226; Bent the knees when landing to soften the impact\n
         &#8226; Additionally align the shoulders with the hips, knees and front wheels when landing
     </string>
+    <string name="novice_lesson_5_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8PFC8eMwOXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
+    </string>
     <string name="regular_lesson_1_title">Backward Stride</string>
     <string name="regular_lesson_1_description">Baby steps backwards</string>
     <string name="regular_lesson_1_tutorial">
@@ -66,6 +91,11 @@
         &#8226; Keep the center of gravity low\n
         &#8226; Start slow and use small steps\n
         &#8226; If you are not comfortable with backward skating, use a wall for support
+    </string>
+    <string name="regular_lesson_1_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RDEoVLTIoO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
     </string>
     <string name="regular_lesson_2_title">Crossovers</string>
     <string name="regular_lesson_2_description">Cross your legs</string>
@@ -76,6 +106,11 @@
         &#8226; … cross the legs in front of each other\n
         &#8226; Use the inside edges of the skates
     </string>
+    <string name="regular_lesson_2_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/CTK_l8a2BcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
+    </string>
     <string name="regular_lesson_3_title">Crossovers Backwards</string>
     <string name="regular_lesson_3_description">Cross your legs backwards</string>
     <string name="regular_lesson_3_tutorial">
@@ -84,6 +119,11 @@
         &#8226; Rotate and lead with the upper body first and then…\n
         &#8226; … cross the legs in front of each other\n
         &#8226; Use the inside edges of the skates
+    </string>
+    <string name="regular_lesson_3_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uAJVh0OwtQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
     </string>
     <string name="regular_lesson_4_title">Jump 180</string>
     <string name="regular_lesson_4_description">Jump and turn around</string>
@@ -94,6 +134,11 @@
         &#8226; Bent the knees when landing to soften the impact\n
         &#8226; Additionally align the shoulders with the hips, knees and front wheels when landing
     </string>
+    <string name="regular_lesson_4_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HispIfn10GM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
+    </string>
     <string name="regular_lesson_5_title">Freestyle: Mohawk Eagle</string>
     <string name="regular_lesson_5_description">Skate sideways and look cool</string>
     <string name="regular_lesson_5_tutorial">
@@ -102,6 +147,11 @@
         &#8226; Start with very slow speed and spread your legs\n
         &#8226; Pointing the toes is easier when hips are low\n
         &#8226; Use the inside edges for the mohawk and the outside edges for the eagle
+    </string>
+    <string name="regular_lesson_5_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/I68DDGjXGDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
     </string>
     <string name="expert_lesson_1_title">Speed Skating: Double Push</string>
     <string name="expert_lesson_1_description">Push twice per leg</string>
@@ -113,6 +163,11 @@
         &#8226; repeat the cycle by shifting the weight to the other leg
         &#8226; Be sure to have your hips parallel to the ground at all times
     </string>
+    <string name="expert_lesson_1_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/b7YoP_JtFAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
+    </string>
     <string name="expert_lesson_2_title">Power Slide</string>
     <string name="expert_lesson_2_description">Stop with style</string>
     <string name="expert_lesson_2_tutorial">
@@ -123,6 +178,11 @@
         &#8226; Apply moderate pressure to the inside edge of the back leg to grind the ground\n
         &#8226; Be sure to keep the weight on the front leg and not the back leg
     </string>
+    <string name="expert_lesson_2_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/o3uMLg9ZGJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
+    </string>
     <string name="expert_lesson_3_title">Skate down stairs</string>
     <string name="expert_lesson_3_description">Never have to stop for small stairs</string>
     <string name="expert_lesson_3_tutorial">
@@ -131,6 +191,11 @@
         &#8226; Keep the center of gravity very low and shift the balance to the back leg\n
         &#8226; Be sure to not look at the stairs and instead concentrate on where to land\n
         &#8226; Use the arms for balance, where the front arm is pointing towards the landing spot
+    </string>
+    <string name="expert_lesson_3_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vrwESkaT2bQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
     </string>
     <string name="expert_lesson_4_title">Skate through uneven ground…</string>
     <string name="expert_lesson_4_description">… like gravel, cobble stones or grass</string>
@@ -142,14 +207,39 @@
         &#8226; Be sure to not look at the gravel and instead concentrate on the destination\n
         &#8226; The most difficult part is the first step, so start with a small hop and fight through it
     </string>
+    <string name="expert_lesson_4_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aTx_rbOsBIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
+    </string>
     <string name="expert_lesson_5_title">Single leg MASTERY</string>
     <string name="expert_lesson_5_description">Acquire Enlightenment in Balance</string>
     <string name="expert_lesson_5_tutorial">
         \n<b>Single leg MASTERY</b>\n\n
         &#8226; Being able to control well with one foot requires immense balance…\n
         &#8226; … and the video demonstrates multiple exercises for that\n
-        &#8226; So this lesson is currently the last and a new skill level will be released in the next product update…\n
-        &#8226; Until then, be sure to keep practicing and have fun!
+        &#8226; So this lesson is currently the last and a new skill level will be released in the next product update!\n
+        &#8226; Until then, be sure to keep practicing and have fun :)
+    </string>
+    <string name="expert_lesson_5_yt_video">
+        <![CDATA[
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zz8DWQ5W01g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        ]]>
     </string>
     <string name="enter_your_notes">Enter your notes</string>
+    <string name="theory_lesson_1_title">Rotate wheels</string>
+    <string name="theory_lesson_1_description">Increase their grip and lifetime</string>
+    <string name="theory_lesson_1_weblink">https://skating.thierstein.net/Knowledge/Inline_Skating_Rollerblading_Information_Wheel_rotation.html</string>
+    <string name="theory_lesson_2_title">Inline Skate for fitness</string>
+    <string name="theory_lesson_2_description">What muscles does inline skating train?</string>
+    <string name="theory_lesson_2_weblink">https://www.livestrong.com/article/481644-what-muscles-does-rollerblading-work/</string>
+    <string name="theory_lesson_3_title">Strength gym workout routine</string>
+    <string name="theory_lesson_3_description">How to train for inline skating in the gym</string>
+    <string name="theory_lesson_3_weblink">https://www.devaskation.com/workouts-for-all-skaters/</string>
+    <string name="theory_lesson_4_title">Buying inline skates</string>
+    <string name="theory_lesson_4_description">What to look for when buying inline skates</string>
+    <string name="theory_lesson_4_weblink">https://www.inlinewarehouse.com/fitlc/skates/inline-skate-buying-guide.html</string>
+    <string name="theory_lesson_5_title">Guide for protective gear</string>
+    <string name="theory_lesson_5_description">What to look for when buying protective gear</string>
+    <string name="theory_lesson_5_weblink">https://inlineskatestars.com/inline-skating-gear-the-must-have-complete-gear-for-skaters/</string>
 </resources>

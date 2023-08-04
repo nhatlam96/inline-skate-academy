@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".NoviceLesson4Activity">
+    tools:context=".RegularLesson2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:layout_height="250dp">
 
             <WebView
-                android:id="@+id/novice_lesson4_yt"
+                android:id="@+id/regular_lesson_2_yt_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="@string/novice_lesson_4_tutorial"
+            android:text="@string/regular_lesson_2_tutorial"
             android:textColor="#616161" />
 
         <EditText
@@ -36,7 +36,8 @@
             android:hint="@string/enter_your_notes"
             android:importantForAutofill="no"
             android:padding="@dimen/text_margin"
-            tools:ignore="TextFields" />
+            android:textColorHint="#8D6E63"
+            tools:ignore="TextFields,VisualLintTextFieldSize" />
 
     </LinearLayout>
 
