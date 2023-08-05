@@ -24,7 +24,7 @@ public class ExpertLesson1Activity extends AppCompatActivity {
     private EditText editLessonNote;
 
     private LessonNoteDatabase lessonNoteDatabase;
-    private final int lessonNoteId = 1;
+    private static final int LESSON_NOTE_ID = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,6 @@ public class ExpertLesson1Activity extends AppCompatActivity {
         loadLessonNote();
         initializeWebView();
     }
-
 
     @SuppressLint("SetJavaScriptEnabled")
     private void initializeWebView() {
@@ -74,7 +73,7 @@ public class ExpertLesson1Activity extends AppCompatActivity {
 
     private void updateLessonNote() {
         String note = editLessonNote.getText().toString();
-        LessonNote lessonNote = new LessonNote(lessonNoteId, note);
+        LessonNote lessonNote = new LessonNote(LESSON_NOTE_ID, note);
         executeInBackground(() -> lessonNoteDatabase.getLessonNoteDAO().updateLessonNote(lessonNote)
         );
     }
@@ -82,16 +81,13 @@ public class ExpertLesson1Activity extends AppCompatActivity {
     private void loadLessonNote() {
         ExecutorService executorService = Executors.newSingleThreadExecutor();
         executorService.execute(() -> {
-            LessonNote existingLessonNote = lessonNoteDatabase.getLessonNoteDAO().getLessonNote(lessonNoteId);
-            LessonNote newLessonNote = new LessonNote(lessonNoteId, "");
+            LessonNote existingLessonNote = lessonNoteDatabase.getLessonNoteDAO().getLessonNote(LESSON_NOTE_ID);
+            LessonNote newLessonNote = new LessonNote(LESSON_NOTE_ID, "");
 
-            // Check if a lesson note already exists
             if (existingLessonNote == null) {
-                // Initialize an empty lesson note
                 lessonNoteDatabase.getLessonNoteDAO().addLessonNote(newLessonNote);
             }
 
-            // Load the existing lesson note or the newly initialized one, on the UI thread
             runOnUiThread(() -> {
                 LessonNote lessonNoteToDisplay = existingLessonNote != null ? existingLessonNote : newLessonNote;
                 editLessonNote.setText(lessonNoteToDisplay.getNote());
@@ -105,7 +101,7 @@ public class ExpertLesson1Activity extends AppCompatActivity {
         Handler handler = new Handler(Looper.getMainLooper());
         executorService.execute(() -> {
             task.run();
-            handler.post(() -> Toast.makeText(ExpertLesson1Activity.this, "Lesson Note Saved", Toast.LENGTH_SHORT).show());
+            handler.post(() -> Toast.makeText(ExpertLesson1Activity.this, "Lesson Note Updated", Toast.LENGTH_SHORT).show());
         });
     }
 }

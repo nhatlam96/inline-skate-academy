@@ -9,18 +9,20 @@ public class LessonNote {
 
     @ColumnInfo(name = "id")
     @PrimaryKey
-    int id;
-
-    @ColumnInfo(name = "content")
-    String note;
+    private final int id;
+    @ColumnInfo(name = "note")
+    private final String note;
 
     public LessonNote(int id, String note) {
         this.id = id;
         this.note = note;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public String getNote() {
         return note;
     }
-
 }
