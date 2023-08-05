@@ -24,13 +24,14 @@
 | 21.07.23 | 30         | 840      | Lessons      | Regular Lessons              | LSS        |
 | 22.07.23 | 30         | 870      | Lessons      | Expert Lessons               | LSS        |
 | 04.08.23 | 90         | 960      | Lessons      | Theory Lessons               | LSS        |
+| 05.08.23 | 300        | 1260     | Lessons      | Room Database implementation | LSS        |
 
 ## Project Idea
 
 **Inline Skate Academy**
 For inline skaters, who need to learn on the go.  
 Inline Skate Academy is a mobile app for learning inline skating  
-that supports various lessons with pictures and instructions.  
+that supports various lessons with videos and instructions.  
 Unlike all competitors it can store user notes.
 
 #### Refine Idea

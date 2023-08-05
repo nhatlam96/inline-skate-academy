@@ -242,4 +242,7 @@
     <string name="theory_lesson_5_title">Guide for protective gear</string>
     <string name="theory_lesson_5_description">What to look for when buying protective gear</string>
     <string name="theory_lesson_5_weblink">https://inlineskatestars.com/inline-skating-gear-the-must-have-complete-gear-for-skaters/</string>
+    <string name="save_note">save note</string>
+    <string name="get_note">get note</string>
+    <string name="update_note">update note</string>
 </resources>

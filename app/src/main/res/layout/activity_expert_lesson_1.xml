@@ -31,12 +31,18 @@
             android:textColor="#616161" />
 
         <EditText
+            android:id="@+id/expert_lesson_1_edit_note"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/enter_your_notes"
             android:importantForAutofill="no"
             android:padding="@dimen/text_margin"
             tools:ignore="TextFields" />
+        <Button
+            android:id="@+id/expert_lesson_1_update_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_note" />
 
     </LinearLayout>
 
