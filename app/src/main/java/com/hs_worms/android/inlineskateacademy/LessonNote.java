@@ -1,5 +1,6 @@
 package com.hs_worms.android.inlineskateacademy;
 
+import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
@@ -9,16 +10,19 @@ public class LessonNote {
 
     @ColumnInfo(name = "id")
     @PrimaryKey
-    private final int id;
+    @NonNull
+    private final String id;
+
     @ColumnInfo(name = "note")
     private final String note;
 
-    public LessonNote(int id, String note) {
+    public LessonNote(@NonNull String id, String note) {
         this.id = id;
         this.note = note;
     }
 
-    public int getId() {
+    @NonNull
+    public String getId() {
         return id;
     }
 

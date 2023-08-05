@@ -13,5 +13,5 @@ public interface LessonNoteDAO {
     void updateLessonNote(LessonNote lessonNote);
 
     @Query("select * from lesson_note where id == :lessonNote_id")
-    LessonNote getLessonNote(int lessonNote_id);
+    LessonNote getLessonNote(String lessonNote_id);
 }

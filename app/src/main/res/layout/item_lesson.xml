@@ -26,7 +26,7 @@
                 android:id="@+id/lesson_image"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:contentDescription="@string/image_lesson_desc"
+                android:contentDescription="@string/lesson_image_desc"
                 android:scaleType="fitCenter"
                 tools:background="@color/white"
                 tools:ignore="ImageContrastCheck"

@@ -24,7 +24,7 @@
 | 21.07.23 | 30         | 840      | Lessons      | Regular Lessons              | LSS        |
 | 22.07.23 | 30         | 870      | Lessons      | Expert Lessons               | LSS        |
 | 04.08.23 | 90         | 960      | Lessons      | Theory Lessons               | LSS        |
-| 05.08.23 | 300        | 1260     | Lessons      | Room Database implementation | LSS        |
+| 05.08.23 | 340        | 1300     | Lessons      | Room Database implementation | LSS        |
 
 ## Project Idea
 
