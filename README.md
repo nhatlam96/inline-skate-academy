@@ -25,6 +25,7 @@
 | 22.07.23 | 30         | 870      | Lessons      | Expert Lessons               | LSS        |
 | 04.08.23 | 90         | 960      | Lessons      | Theory Lessons               | LSS        |
 | 05.08.23 | 420        | 1380     | Lessons      | Room Database logic          | LSS        |
+| 06.08.23 | 180        | 1560     | Lessons      | Room Database + Refactoring  | LSS        |
 
 ## Project Idea
 

@@ -10,12 +10,12 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class LessonNoteRepository {
+public class DatabaseHelper {
 
     private final LessonNoteDAO lessonNoteDAO;
     private final ExecutorService executorService;
 
-    public LessonNoteRepository(Context context) {
+    public DatabaseHelper(Context context) {
         RoomDatabase.Callback roomCallback = new RoomDatabase.Callback() {
             @Override
             public void onCreate(@NonNull SupportSQLiteDatabase db) {
@@ -45,24 +45,17 @@ public class LessonNoteRepository {
         });
     }
 
-    public void loadLessonNoteBackground(String noteId, LessonNoteLoadCallback callback) {
-        executorService.execute(() -> {
-            try {
-                LessonNote lessonNote = lessonNoteDAO.getLessonNote(noteId);
-                if (lessonNote == null) {
-                    lessonNote = new LessonNote(noteId, "");
-                    lessonNoteDAO.addLessonNote(lessonNote);
-                }
-                callback.onLessonNoteLoaded(lessonNote);
-            } catch (Exception e) {
-                e.printStackTrace();
-                callback.onError(e.getMessage());
+    public LessonNote loadLessonNoteBackground(String noteId) {
+        try {
+            LessonNote lessonNote = lessonNoteDAO.getLessonNote(noteId);
+            if (lessonNote == null) {
+                lessonNote = new LessonNote(noteId, "");
+                lessonNoteDAO.addLessonNote(lessonNote);
             }
-        });
-    }
-
-    public interface LessonNoteLoadCallback {
-        void onLessonNoteLoaded(LessonNote lessonNote);
-        void onError(String errorMessage);
+            return lessonNote;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null; // Return null on error
+        }
     }
 }

@@ -65,13 +65,13 @@
     <string name="theory_lesson_2_title">Inline Skate for fitness</string>
     <string name="theory_lesson_2_description">What muscles does inline skating train?</string>
     <string name="theory_lesson_2_weblink">https://www.livestrong.com/article/481644-what-muscles-does-rollerblading-work/</string>
-    <string name="theory_lesson_3_title">Strength gym workout routine</string>
+    <string name="theory_lesson_3_title">Gym workout</string>
     <string name="theory_lesson_3_description">How to train for inline skating in the gym</string>
     <string name="theory_lesson_3_weblink">https://www.devaskation.com/workouts-for-all-skaters/</string>
     <string name="theory_lesson_4_title">Buying inline skates</string>
     <string name="theory_lesson_4_description">What to look for when buying inline skates</string>
     <string name="theory_lesson_4_weblink">https://www.inlinewarehouse.com/fitlc/skates/inline-skate-buying-guide.html</string>
-    <string name="theory_lesson_5_title">Guide for protective gear</string>
+    <string name="theory_lesson_5_title">Protective gear</string>
     <string name="theory_lesson_5_description">What to look for when buying protective gear</string>
     <string name="theory_lesson_5_weblink">https://inlineskatestars.com/inline-skating-gear-the-must-have-complete-gear-for-skaters/</string>
 
@@ -271,9 +271,7 @@
     <string name="save_note">save note</string>
 
     <string name="note_updated">Lesson Note Updated</string>
-    <string name="empty_note" />
 
-    <string name="error_update_note">error_update_note</string>
     <string name="error_load_note">error_load_note</string>
 
     <!-- Lesson Notes: Room Database (Primary Keys) -->
