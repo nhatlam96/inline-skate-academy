@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".RegularLesson4Activity">
+    tools:context=".BaseLessonActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,27 +17,35 @@
             android:layout_height="250dp">
 
             <WebView
-                android:id="@+id/regular_lesson_4_yt_view"
+                android:id="@+id/base_lesson_web_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
         </FrameLayout>
 
         <TextView
+            android:id="@+id/base_lesson_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="@string/regular_lesson_4_tutorial"
-            android:textColor="#616161" />
+            android:text=""
+            android:textColor="#616161"
+            tools:ignore="VisualLintLongText" />
 
         <EditText
+            android:id="@+id/base_lesson_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/enter_your_notes"
             android:importantForAutofill="no"
             android:padding="@dimen/text_margin"
-            android:textColorHint="#8D6E63"
             tools:ignore="TextFields,VisualLintTextFieldSize" />
+        <Button
+            android:id="@+id/base_lesson_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_note"
+            tools:ignore="VisualLintButtonSize" />
 
     </LinearLayout>
 

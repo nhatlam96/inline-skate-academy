@@ -1,24 +1,17 @@
 package com.hs_worms.android.inlineskateacademy;
 
-import android.annotation.SuppressLint;
-import android.os.Bundle;
-import android.webkit.WebChromeClient;
-import android.webkit.WebView;
+public class ExpertLesson4Activity extends BaseLessonActivity {
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class ExpertLesson4Activity extends AppCompatActivity {
-
-    @SuppressLint("SetJavaScriptEnabled")
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_expert_lesson_4);
-
-        WebView webView = findViewById(R.id.expert_lesson_4_yt_view);
-        String Video = getString(R.string.expert_lesson_4_yt_video);
-        webView.loadData(Video, "text/html", "utf-8");
-        webView.getSettings().setJavaScriptEnabled(true);
-        webView.setWebChromeClient(new WebChromeClient());
+    public int getNoteId() {
+        return R.string.expert_lesson_4_note_id;
+    }
+    @Override
+    public int getYouTubeVideoEmbedCode() {
+        return R.string.expert_lesson_4_yt_video;
+    }
+    @Override
+    public int getTutorialText() {
+        return R.string.expert_lesson_4_tutorial;
     }
 }
