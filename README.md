@@ -44,10 +44,10 @@ Unlike all competitors it can store user notes.
 
 #### Minimum requirements
 
-- Multiple screens: Category X -> Lesson 5
+- Multiple screens: Category X -> Lesson Y -> Video Z
 - User input and storage: User can input own notes and those will be saved locally
 - RecyclerView (display a list or grid of objects)  - Categories displays different lessons
-- Offline functionality with local database: User notes, lesson descriptions
+- Offline functionality with local database: User notes are saved locally with Room Database
 - Unit Tests: WIP
 
 #### Optional requirements
@@ -56,7 +56,7 @@ Unlike all competitors it can store user notes.
 - User login (Firebase Auth): No
 - Data synchronization with database in cloud: No
 - Crashlytics or analytics: No
-- Background tasks: No
+- Background tasks: Some Room Database operations are done in background
 - Animations: No
 - Multi-Language support: No
 - Use of sensors or camera: No
