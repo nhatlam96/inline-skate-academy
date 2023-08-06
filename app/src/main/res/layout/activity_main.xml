@@ -9,15 +9,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="12dp"
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/novice_cardview"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_margin="20dp"
-            app:cardBackgroundColor="#D4EDB7">
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            app:cardBackgroundColor="@color/novice"
+            app:cardCornerRadius="8dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -32,7 +34,8 @@
                     android:text="@string/novice_title"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <androidx.constraintlayout.utils.widget.ImageFilterView
                     android:layout_width="125dp"
@@ -49,8 +52,10 @@
             android:id="@+id/regular_cardview"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_margin="20dp"
-            app:cardBackgroundColor="#FFF175">
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            app:cardBackgroundColor="@color/regular"
+            app:cardCornerRadius="8dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -65,7 +70,8 @@
                     android:text="@string/regular_title"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <androidx.constraintlayout.utils.widget.ImageFilterView
                     android:layout_width="125dp"
@@ -82,8 +88,10 @@
             android:id="@+id/expert_cardview"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_margin="20dp"
-            app:cardBackgroundColor="#FF7A51">
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            app:cardBackgroundColor="@color/expert"
+            app:cardCornerRadius="8dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -98,7 +106,8 @@
                     android:text="@string/expert_title"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <androidx.constraintlayout.utils.widget.ImageFilterView
                     android:layout_width="125dp"
@@ -117,8 +126,10 @@
             android:id="@+id/theory_cardview"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_margin="20dp"
-            app:cardBackgroundColor="@color/teal_200">
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            app:cardBackgroundColor="@color/theory"
+            app:cardCornerRadius="8dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -133,7 +144,8 @@
                     android:text="@string/theory_title"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="125dp"

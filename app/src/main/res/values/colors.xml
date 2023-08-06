@@ -4,4 +4,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#EEEEEE</color>
+
+    <color name="theory">#FF03DAC5</color>
+    <color name="novice">#D4EDB7</color>
+    <color name="regular">#FFF175</color>
+    <color name="expert">#FF7A51</color>
+
 </resources>

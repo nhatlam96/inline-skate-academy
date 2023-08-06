@@ -24,4 +24,9 @@
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/black</item>
     </style>
+    <!-- No Action Bar -->
+    <style name="Theme.InlineSkateAcademy.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>
