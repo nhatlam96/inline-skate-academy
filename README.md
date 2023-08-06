@@ -44,7 +44,7 @@ Unlike all competitors it can store user notes.
 
 #### Minimum requirements
 
-- Multiple screens: Category X -> Lesson Y -> Video Z
+- Multiple screens: Category X -> Lesson Y
 - User input and storage: User can input notes and those will be saved locally
 - RecyclerView - Categories displays different lessons with RecyclerView
 - Offline functionality with local database: User notes are saved with Room
