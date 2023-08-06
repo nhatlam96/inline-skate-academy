@@ -55,7 +55,7 @@ public class DatabaseHelper {
             return lessonNote;
         } catch (Exception e) {
             e.printStackTrace();
-            return null; // Return null on error
+            return null;
         }
     }
 }

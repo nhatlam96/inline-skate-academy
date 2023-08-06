@@ -12,20 +12,20 @@
 
 - Student: Nhat-Lam Luong
 
-| Date     | Time (min) | TimeF(x) | Category     | Description                  | User Story |
-|----------|------------|----------|--------------|------------------------------|------------|
-| 06.04.23 | 60         | 60       | Project Idea | Define Idea                  | -          |
-| 12.04.23 | 30         | 90       | Home screen  | Basic Buttons                | HS         |
-| 13.04.23 | 150        | 240      | Home screen  | Card views                   | HS         |
-| 16.04.23 | 60         | 300      | Misc         | Splashscreen + App Icon      | -          |
-| 17.04.23 | 30         | 330      | Misc         | Light- dark theme adjustment | -          |
-| 17.05.23 | 180        | 510      | Categories   | RecyclerView                 | CTG        |
-| 17.07.23 | 300        | 810      | Lessons      | Novice Lessons               | LSS        |
-| 21.07.23 | 30         | 840      | Lessons      | Regular Lessons              | LSS        |
-| 22.07.23 | 30         | 870      | Lessons      | Expert Lessons               | LSS        |
-| 04.08.23 | 90         | 960      | Lessons      | Theory Lessons               | LSS        |
-| 05.08.23 | 420        | 1380     | Lessons      | Room Database logic          | LSS        |
-| 06.08.23 | 180        | 1560     | Lessons      | Room Database + Refactoring  | LSS        |
+| Date     | Time (min) | TimeF(x) | Category     | Description             | User Story |
+|----------|------------|----------|--------------|-------------------------|------------|
+| 06.04.23 | 60         | 60       | Project Idea | Define Idea             | -          |
+| 12.04.23 | 30         | 90       | Home screen  | Basic Buttons           | HS         |
+| 13.04.23 | 150        | 240      | Home screen  | Card views              | HS         |
+| 16.04.23 | 60         | 300      | Misc         | Splashscreen + App Icon | -          |
+| 17.04.23 | 30         | 330      | Misc         | Light- and dark theme   | -          |
+| 17.05.23 | 180        | 510      | Categories   | RecyclerView            | CTG        |
+| 17.07.23 | 300        | 810      | Lessons      | Novice Lessons          | LSS        |
+| 21.07.23 | 30         | 840      | Lessons      | Regular Lessons         | LSS        |
+| 22.07.23 | 30         | 870      | Lessons      | Expert Lessons          | LSS        |
+| 04.08.23 | 90         | 960      | Lessons      | Theory Lessons          | LSS        |
+| 05.08.23 | 420        | 1380     | Lessons      | Room Database           | LSS        |
+| 06.08.23 | 220        | 1600     | Misc         | JUnit Tests             | -          |
 
 ## Project Idea
 
@@ -45,10 +45,10 @@ Unlike all competitors it can store user notes.
 #### Minimum requirements
 
 - Multiple screens: Category X -> Lesson Y -> Video Z
-- User input and storage: User can input own notes and those will be saved locally
-- RecyclerView (display a list or grid of objects)  - Categories displays different lessons
-- Offline functionality with local database: User notes are saved locally with Room Database
-- Unit Tests: WIP
+- User input and storage: User can input notes and those will be saved locally
+- RecyclerView - Categories displays different lessons with RecyclerView
+- Offline functionality with local database: User notes are saved with Room
+- Unit Tests: LessonTest, LessonNoteDAOTest and LessonNoteDatabaseTest
 
 #### Optional requirements
 
@@ -56,7 +56,7 @@ Unlike all competitors it can store user notes.
 - User login (Firebase Auth): No
 - Data synchronization with database in cloud: No
 - Crashlytics or analytics: No
-- Background tasks: Some Room Database operations are done in background
+- Background tasks: No
 - Animations: No
 - Multi-Language support: No
 - Use of sensors or camera: No

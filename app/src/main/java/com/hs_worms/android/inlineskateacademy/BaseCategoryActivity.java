@@ -1,4 +1,3 @@
-// BaseCategoryActivity.java
 package com.hs_worms.android.inlineskateacademy;
 
 import android.content.Intent;

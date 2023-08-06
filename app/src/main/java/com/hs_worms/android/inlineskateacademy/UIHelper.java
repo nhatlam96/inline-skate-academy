@@ -1,4 +1,3 @@
-// UIHelper.java
 package com.hs_worms.android.inlineskateacademy;
 
 import android.content.Context;
@@ -10,6 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 public class UIHelper {
 
     private static final Handler handler = new Handler(Looper.getMainLooper());
+
+    public static void showToast(Context context, int resId) {
+        showToast(context, context.getString(resId));
+    }
 
     public static void showToast(Context context, String message) {
         handler.post(() -> Toast.makeText(context, message, Toast.LENGTH_SHORT).show());
