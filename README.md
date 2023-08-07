@@ -2,7 +2,7 @@
     <img src="https://i.imgur.com/5MKRkEs.png" title="source: imgur.com" width="33%" />
 </a>
 
-# Inline Skate Academy
+# Inline Skate Academy 
 
 For inline skaters, who need to learn on the go.  
 Inline Skate Academy is an android mobile app for learning inline skating  
