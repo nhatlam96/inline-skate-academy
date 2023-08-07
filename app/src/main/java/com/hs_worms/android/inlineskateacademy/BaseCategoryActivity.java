@@ -31,8 +31,9 @@ public abstract class BaseCategoryActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         };
-
-        UIHelper.setupRecyclerView(recyclerView, lessons, listener);
+        LessonAdapter adapter = new LessonAdapter(lessons);
+        adapter.setOnItemClickListener(listener);
+        recyclerView.setAdapter(adapter);
     }
 
     protected abstract int getCategoryTitle();

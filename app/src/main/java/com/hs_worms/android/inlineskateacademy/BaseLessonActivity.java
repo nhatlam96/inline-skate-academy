@@ -9,6 +9,7 @@ import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -46,7 +47,7 @@ public abstract class BaseLessonActivity extends AppCompatActivity {
         if (lessonNote != null) {
             editLessonNote.setText(lessonNote.getNote());
         } else {
-            UIHelper.showToast(this, getString(R.string.error_load_note));
+            handler.post(() -> Toast.makeText(this, getString(R.string.error_load_note), Toast.LENGTH_SHORT).show());
         }
     }
 
@@ -74,6 +75,6 @@ public abstract class BaseLessonActivity extends AppCompatActivity {
     private void updateLessonNoteBackground() {
         String note = editLessonNote.getText().toString();
         databaseHelper.updateLessonNoteBackground(NOTE_ID, note);
-        UIHelper.showToast(this, getString(R.string.note_updated));
+        handler.post(() -> Toast.makeText(this, getString(R.string.note_updated), Toast.LENGTH_SHORT).show());
     }
 }
