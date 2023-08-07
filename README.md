@@ -1,5 +1,5 @@
 <a href="https://imgur.com/5MKRkEs">
-    <img src="https://i.imgur.com/5MKRkEs.png" title="source: imgur.com" width="33%" />
+    <img src="https://i.imgur.com/5MKRkEs.png" title="source: imgur.com" width="20%" />
 </a>
 
 # Inline Skate Academy 
