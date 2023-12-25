@@ -543,11 +543,3 @@ These primarily cover the Lesson and Database sections, but it is advised to add
 | 05.08.23 | 420        | 1380     | Lessons       | Room Database           | LSS        |
 | 06.08.23 | 220        | 1600     | Misc          | JUnit Tests             | -          |
 | 07.08.23 | 200        | 1800     | Documentation | README.md               | -          |
-
-# Afterword
-
-I am really proud of this project because I turned my vision into reality with it. What makes it even more special is that this project combines my unique interest in inline skating with IT. Currently, there is no app like this in the small world of inline skating, so I saw this as a chance to take matters into my own hands and face the challenge head-on!
-
-However, I encountered difficulties when my partner had to leave the project for personal reasons. This left me alone with a huge workload that I couldn't handle by myself. As a result, I had to simplify some aspects of my project and focus only on meeting the essential requirements, like Multiple Screens, RecyclerView, User Input and Storage, Offline Functionality with a local database, and Unit Tests.
-
-Overall, this journey brought me happiness, taught me how to manage myself, and provided me with a lot of practice in coding.
